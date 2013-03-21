@@ -1,0 +1,18 @@
+In general, think about what it means when a task in your list is in the middle of a tree, at the top of a tree, and a leaf of a tree.
+  - It can happen that a leaf or middle task is super important, but a root task isn't, if the middle/leaf task is time-sensitive, but you have much more time for the root task
+  - By the same token, some children of a root task might be someday/maybe, while the root task isn't (say the root task is a piece of software, and the someday/maybe tasks are optional features)
+  - Or the root task is someday/maybe, but a child task is critical to the root and is time sensitive. So you're like "I may never finish the root task, but I need to do the subtask this weekend in case I ever decide to follow through with the root task"
+
+
+Tasks should show at most 2 other tasks for context:
+  - If you're looking at a leaf task, show the immediate parent and the overall root task. Something like this (main task is one on the bottom).
+    ... Support customizable roles in AclService
+        ... Make role an int32 in ACLProto
+            - Send out final javacflume job
+    // The top two would be in a light, small font, and the bottom would be regular and black (and would be what got highlighted)
+    // Here's another alternative:
+    Support customizable roles... > (3) > Make role an int32...
+    - Send out .. javacflume job
+    // Again, top would be small and light (like the class heierarchy in a javadoc) while the bottom is bold and black
+
+So, one significant realization I had this morning is that any to-do list should actually be at least 2 to-do lists: long-term goals and short-term tasks. Long term goals you sit down and pick based on judgement and values and mushy stuff like that. They're the things written over your bed. Short term tasks come from those (and what they need to have done in the immediate future), but your daily to-do list also has all the friends you have to email, etc., and is mostly determined by the stuff you didn't finish yesterday. There should be a way to move tasks from one to the other and stuff (and a way to move tasks from yesterday's list to today's). You should be able to finish all the tasks in front of you and then be like "okay, what next", look at your goals, and add some more tasks.
