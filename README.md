@@ -17,7 +17,7 @@ Other features that would be really cool:
  - Ability to collapse task trees
    - related: a view where you just see the root task and the leftmost child (next thing to be done for the root task) or maybe the path to the leftmost child.
  - Color tasks by how old they are
- - detect links, the way google tools detect b/123456 and automatically make it point to buganizer bug number 123456. It'd be cool if I could have m/a1231234 and have that automatically link to an email thread, or c/231asdf and have the go to a calendar event.
+ - detect links. It'd be cool if I could have m/a1231234 and have that automatically link to an email thread, or c/231asdf and have the go to a calendar event.
  - Tags (@people, !places #things)
  - color-coded dates
- - at the end of the day, pop up a window asking you what you've done. This would be used to track stuff you did that never made it onto the list (like, I was doing X, but then I got interrupted and spend the next three hours helping Y with Z. Obviously I didn't make a task "Help Y" just so I could turn around and go do it. This would help with snippets, maybe time accounting in general).
+ - at the end of the day, pop up a window asking you what you've done. This would be used to track stuff you did that never made it onto the list (like, I was doing X, but then I got interrupted and spend the next three hours helping Y with Z. Obviously I didn't make a task "Help Y" just so I could turn around and go do it. This would help with time accounting).
